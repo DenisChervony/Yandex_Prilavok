@@ -39,76 +39,28 @@
  <details>
   <summary>Чек-листы и Баг-репорты</summary>
 
- [Чек-листы и Баг-репорты, ссылка на докемент](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?usp=sharing)
+ [Чек-листы и Баг-репорты, ссылка на докемент](https://docs.google.com/spreadsheets/d/113hOZr9NLbMTYB6e9SK_Gd01myN7B9vhSyJJlhfx5TY/edit?usp=sharing)
 
   </details>
  
  <details>
   <summary>Отчёт о тестировании</summary>
 
-  [Отчёт о тестировании, ссылка на докемент](https://docs.google.com/document/d/1gpl_Xx5YgNa9D8BnXjO003FFYcKc2DOcitlFGRdEM3A/edit?usp=sharing)
+  [Отчёт о тестировании, ссылка на докемент](hhttps://docs.google.com/document/d/1N5KHynS9xbwPRxGJUKHN-e6Oe9xJuQBkvNH9UgYkSCA/edit?usp=sharing)
  
  
- # Отчет о тестировании Яндекс.Метро
+ # Отчет о тестировании Яндекс.Прилавок
  
 Тестирование проводилось в следующем тестовом окружении: 
-- Эмулятор: Android Studio, 
-- Устройство: Honor 8, 
-- ОС: Android 9.0 Pie - API 28, 
-- Разрешение экрана: 1080х1920, 
-- Диагональ: 5,5,
-- Версия Яндекс.Метро: 3.6.
-
-
-
-Все требования, затронутые изменениями, были покрыты чек-листом [ссылка на Google-таблицу](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?usp=sharing). 
-
-Также написан регрессионный чек-лист: [ссылка на Google-таблицу](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?usp=sharing). 
-
-Результаты выполнения тестов можно посмотреть здесь: [ссылка на Google-таблицу](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?usp=sharing). 
-
-
-Из 56 успешно прошло 46, не прошло — 10.
+- Тестовый стенд: https://{id}.serverhub.praktikum-services.ru/
+- Документация API: https://{id}.serverhub.praktikum-services.ru/docs/
+- Версия Яндекс.ПриЛавок: 3.1.1
+- Версия Postman: 11.36.1
 
  
- ## Список багов, найденных при тестировании, разбит по приоритетам:
- 
- ### 1. Блокирующие: 
- *Не найдено*
- 
- ### 2. Критичные:
- - [Временной интервал маршрута не обновляется при превышении текущим временем времени окончания](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A5)
- - [При нажатии на кнопку "Обратная связь" происходит переход в приложении Googl почты](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A11)
- - [Карта не масштабируется жестами "Пинч" и "Спред"](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A13)
- 
- ### 3. Средний приоритет:
- - [Новые станции появляются в низу списка в истории.](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A4)
- - [При смене ориентации экрана масштаб построенного маршрута не сохраняется в том состоянии, которое выбрал пользователь.](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A6)
- - [При переходе из портретной ориентации в альбомную и обратно, карточка Маршрута свёрнутое меняется на среднее положение.](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A7)
- - [При переходе из портретной ориентации в альбомную, карточка Станции из среднего положения переходит в свернутое.](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A8)
- - [При переходе из портретной ориентации в альбомную, карточка Станции из открытого положения переходит в среднее.](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A9)
- - [При отсутствии интернет-соединения уведомление об ошибке не появляется.](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A10)
- - [В режиме "Автоматически" тема в 18:00 не меняется на темную.](https://docs.google.com/spreadsheets/d/1Y3vnKlT3PDjsaYkxcgJ_pLwlawlEAwJJbat9BNtxkkU/edit?gid=589506703#gid=589506703&range=A12)
- 
- ### 4. Низкий приоритет:
- *Не найдено*
- 
- ### 5. Незначительные:
-*Не найдено*
- 
- ### Примечание:
- С учётом того, что блокирующие ошибки не обнаружены, однако выявлены критические дефекты, способный дезориентировать пользователей, а также несколько серьезных багов, которые могут негативно повлиять на впечатление от работы с приложением, команда тестирования рекомендует выпустить обновление в Google Play исключительно после устранения указанных недостатков.  
-
- 
- ## Тестирование производительности заняло 6 часов  
-Не все найденные дефекты критически влияют на взаимодействие с приложением. Основные пользовательские сценарии (построение маршрута, просмотр станций) остаются доступными. Однако критические баги, такие как некорректное отображение временных интервалов и проблемы с масштабированием карты, могут дезориентировать и негативно повлиять на опыт пользователей.  
-
-После исправления багов я бы порекомендовал:  
-- Провести повторное тестирование критических дефектов (временные интервалы, масштабирование карты, работа с ориентацией экрана).    
-- Проверить смену темы приложения в автоматическом режиме на разных устройствах.  
-- Выполнить тестирование на реальных устройствах (для выявления проблем, которые могли не проявиться на эмуляторе).  
-- Обработать сценарии отсутствия интернета.
-- Доработать обработку смены ориентации экрана 
+ ## Тестирование производительности заняло 15 часов  
+На данный момент продукт не соответствует критериям релиза: 50% чек-листа содержит критические и блокирующие ошибки (всего 31 баг: 21 критический и 10 блокирующих).
+Перед выпуском необходимо исправить все дефекты в текущей API-версии и провести полный ретест!
 
 
  </details>
