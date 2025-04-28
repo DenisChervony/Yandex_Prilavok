@@ -46,7 +46,7 @@
  <details>
   <summary>Отчёт о тестировании</summary>
 
-  [Отчёт о тестировании, ссылка на докемент](hhttps://docs.google.com/document/d/1N5KHynS9xbwPRxGJUKHN-e6Oe9xJuQBkvNH9UgYkSCA/edit?usp=sharing)
+  [Отчёт о тестировании, ссылка на докемент](https://docs.google.com/document/d/1N5KHynS9xbwPRxGJUKHN-e6Oe9xJuQBkvNH9UgYkSCA/edit?usp=sharing)
  
  
  # Отчет о тестировании Яндекс.Прилавок
