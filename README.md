@@ -1,4 +1,4 @@
-<img src="https://github.com/DenisChervony/web-images/blob/main/Yandex_Metro%201500.png" alt="Denis Chervony" align="center" style="width:100%; height:auto;">
+<img src="https://github.com/DenisChervony/web-images/blob/main/YandexPrilavok.png" alt="Denis Chervony" align="center" style="width:100%; height:auto;">
 
 # Новая функциональность в API Яндекс.Прилавка
 
